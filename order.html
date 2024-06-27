@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="F.png">
+    <title>BASKET</title>
+    <style>
+        body{
+            background-image: url(./table-leaves-shape.png);
+            position: fixed;
+        }
+        .con{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-self: center;
+            align-items: center;
+        }
+        .itm1{
+            margin-top: 40px;
+        }
+        ul li{
+            list-style: none;
+        }
+        h1{
+            font-size: 4rem;
+            margin-top: 80px;
+        }
+        h4{
+            font-size: 20px;
+            margin-left: 25px;
+            font-weight: bolder;
+        }
+        .round h3 {
+            border: 2px solid black;
+            border-radius: 23px;
+            height: 45px;
+            width: 250px;
+            text-align: center; /* horizontally center the text */
+            line-height: 45px; /* vertically center the text */
+            background-color: #f52207;
+        }
+        .round h3:nth-child(2){
+            background-color: #f1ad0f;            
+        }
+        .round img{
+            height: 40px;
+            width:40px;
+            color: #ffff;
+        }
+        .round{
+           margin-top: 90px;
+           margin-left: 28px;
+        }
+        ul .round h3:hover{
+            background: #888484;
+            height: 50px;
+            transition: .3s linear;
+        }
+        .con2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .left,.right{
+            height: 1px;
+            background-color:black;
+            border: 2px solid black;
+            flex: 1;
+        }
+        .text{
+            padding: 0 10px;
+        }
+        .left {
+            width: 100px;
+        }
+
+        .right {
+            width: 100px;
+        }
+        .itm2{
+            /* border: 2px solid black; */
+            text-decoration: underline;
+            font-size: 1.5rem;
+            margin:10px 10px 10px 95px
+        }
+        .itm2:hover{
+            color: red;
+            transition: .3s linear;
+            font-weight: bolder;
+        }
+        .itm3{
+            display: flex;
+            align-items: center;
+            background-color: green;
+            color: rgb(225, 219, 219);
+            padding: 20px;
+            border-radius: 23px;
+            height: 60px;
+            width: 250px;
+            margin: 2px 10px 2px 2px ;
+        }
+        .itm3 img{
+            height: 60px;
+            width: 70px;
+        }
+        .itm3 h1{
+            margin:4px 2px 2px 2px;
+        }
+    </style>
+</head>
+<body >
+    <div class="con">
+        <div class="itm1">
+            <ul>
+                <li class="itm3">
+                <img src="icons8-basket-48.png" style="color: whitesmoke;">
+                <h1>Basket</h1>
+                </li>
+                <li><h4>Minimum Delivery is ₹100</h4></li>
+                <li class="round">
+                    <h3 ><img src="scotter.svg" alt="deliver the order" title="Deliver my order"></h3>
+                    <h3 ><img src="store.svg" title="I will come and collect"></h3>
+                </li>
+
+            
+            <div class="con2">
+                <div class="left"></div>
+                <div class="text">OR</div>
+                <div class="right"></div>
+            </div>
+            <li>
+                <div class="itm2"><a href="front.html">BACK</a> </div>
+            </li>
+            </ul>
+            
+        </div>
+    </div>
+
+    
+</body>
+</html>
